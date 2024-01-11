@@ -1,0 +1,1 @@
+import "./VerticalList.css";
