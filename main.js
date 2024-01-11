@@ -1,8 +1,10 @@
+import { Header } from './src/components/Header/Header';
 import './style.css';
 
 const divApp = document.querySelector("#app");
 
-const imgLogo = document.createElement("img");
-imgLogo.src = "/assets/img/logo.png";
+// Crear elemento Header
+const header = Header();
 
-divApp.append(imgLogo);
+// Pintar el header
+divApp.appendChild(header);
