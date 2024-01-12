@@ -1,0 +1,15 @@
+#nav-menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: var(--mgc-gap-m);
+}
+
+#nav-menu > li > a {
+    color: var(--mgc-primary-color);
+    font-size: var(--mgc-font-size-s);
+}
+#nav-menu > li > a:hover {
+    transition: color 1s;
+    color: var(--mgc-tertiary-color);
+}

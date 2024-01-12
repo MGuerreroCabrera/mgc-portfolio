@@ -9,7 +9,7 @@
   box-sizing: border-box;
 }
 
-h1, h2, h3, h4, h5, h6, a, label, span, p, button {
+h1, h2, h3, h4, h5, h6, a, label, span, p, button, li {
   text-decoration: none;
   font-family: 'Inter', sans-serif;
 }
@@ -54,7 +54,7 @@ ol, ul {
   --mgc-radius-xl: 40px;
 
   /* Font sizes */
-  --mgc-font-size-s: 0.5rem;
+  --mgc-font-size-s: 0.8rem;
   --mgc-font-size-m: 1rem;
   --mgc-font-size-l: 1.5rem;
   --mgc-font-size-xl: 2rem;  
