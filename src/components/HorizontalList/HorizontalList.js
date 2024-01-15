@@ -8,13 +8,13 @@ const optionsMenu = [
     },
     {
         url: '#',
-        textcontent: 'Experiencia',
-        title: 'Experiencia'
+        textcontent: 'Formación',
+        title: 'Formación'
     },
     {
         url: '#',
-        textcontent: 'Formación',
-        title: 'Formación'
+        textcontent: 'Experiencia',
+        title: 'Experiencia'
     },
     {
         url: '#',

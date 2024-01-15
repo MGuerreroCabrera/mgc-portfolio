@@ -1,9 +1,11 @@
 #app-header {
     width: 100%;
     height: 10vh;
+    position:fixed;
     display: flex;
     justify-content: flex-end;
+    z-index: 2;
     background-color: var(--mgc-secondary-color);
-    padding: var(--mgc-padding-l) var(--mgc-padding-xxl);
+    padding: var(--mgc-padding-l) var(--mgc-padding-xl);
     gap: var(--mgc-gap-m);
 }
