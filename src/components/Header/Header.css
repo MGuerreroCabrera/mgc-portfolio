@@ -2,8 +2,8 @@
     width: 100%;
     height: 10vh;
     display: flex;
-    justify-content: space-between;
+    justify-content: flex-end;
     background-color: var(--mgc-secondary-color);
-    padding: var(--mgc-padding-l);
+    padding: var(--mgc-padding-l) var(--mgc-padding-xxl);
     gap: var(--mgc-gap-m);
 }

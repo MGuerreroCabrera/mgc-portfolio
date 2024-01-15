@@ -2,12 +2,13 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: var(--mgc-gap-m);
+    gap: var(--mgc-gap-xl);
 }
 
 #nav-menu > li > a {
+    font-family: var(--mgc-funny-font);
     color: var(--mgc-primary-color);
-    font-size: var(--mgc-font-size-s);
+    font-size: var(--mgc-font-size-m);
 }
 #nav-menu > li > a:hover {
     transition: color 1s;
