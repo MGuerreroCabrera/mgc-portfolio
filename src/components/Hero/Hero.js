@@ -51,7 +51,7 @@ export const Hero = () => {
     const h1 = document.createElement("h1");
     h1.textContent = "Hola 👋, soy Manuel Guerrero Cabrera";
     const h2 = document.createElement("h2");
-    h2.textContent = "Solo necesito dos cosas al día. Estar con mi familia y pasar unas horas programando.";
+    h2.textContent = "Dos cosas me hacen feliz cada día. Mi familia y unas horas de programación.";
 
     // Inyectar contenido al contenedor izquierdo
     divLeftContainer.appendChild(h1);

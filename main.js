@@ -1,4 +1,4 @@
-import { Education } from './src/components/Education/Education';
+import { Bio } from './src/components/Bio/Bio';
 import { Footer } from './src/components/Footer/Footer';
 import { Header } from './src/components/Header/Header';
 import { HorizontalList } from './src/components/HorizontalList/HorizontalList';
@@ -24,10 +24,10 @@ const main = Main();
 divApp.appendChild(main);
 
 // Crear la sección para experiencia y formación
-let bioSection = Section("bio", "generic-section");
+let bioSection = Section("Bio", "bio", "generic-section");
 
 // Crear la capa con el contenido de la formación
-bioSection = Education(bioSection);
+bioSection = Bio(bioSection);
 
 
 // Inyectar elemento HTML bio al DOM

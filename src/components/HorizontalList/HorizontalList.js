@@ -3,23 +3,18 @@ import "./HorizontalList.css";
 const optionsMenu = [
     {
         url: '#',
-        textcontent: 'Sobre mí',
-        title: 'Sobre mí'
-    },
-    {
-        url: '#',
-        textcontent: 'Formación',
-        title: 'Formación'
-    },
-    {
-        url: '#',
-        textcontent: 'Experiencia',
-        title: 'Experiencia'
+        textcontent: 'Bio',
+        title: 'Bio'
     },
     {
         url: '#',
         textcontent: 'Portfolio',
         title: 'Portfolio'
+    },
+    {
+        url: '#',
+        textcontent: 'Contáctame',
+        title: 'Contacto'
     }
 ];
 
