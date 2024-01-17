@@ -7,12 +7,12 @@ const optionsMenu = [
         title: 'Bio'
     },
     {
-        url: '#',
+        url: '#portfolio',
         textcontent: 'Portfolio',
         title: 'Portfolio'
     },
     {
-        url: '#',
+        url: 'mailto:manuel@guerrerocabrera.com',
         textcontent: 'Contáctame',
         title: 'Contacto'
     }

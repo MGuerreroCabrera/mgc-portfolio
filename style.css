@@ -63,6 +63,7 @@ html {
   --mgc-radius-m: 10px;
   --mgc-radius-l: 20px;
   --mgc-radius-xl: 40px;
+  --mgc-radius-all: 100px;
 
   /* Font sizes */
   --mgc-font-size-sm: clamp(0.7rem, 0.17vw + 0.66rem, 0.89rem);
