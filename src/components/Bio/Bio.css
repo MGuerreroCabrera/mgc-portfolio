@@ -42,7 +42,7 @@
     align-items: center;
     text-align: center;
     padding: var(--mgc-padding-l);
-    gap: var(--mgc-gap-xl)
+    gap: var(--mgc-gap-xl);
 }
 
 #education-container h3 {
@@ -51,3 +51,45 @@
     color: var(--mgc-secondary-color);
 }
 
+.experience-container {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: var(--mgc-padding-l);
+    gap: var(--mgc-gap-xl);  
+}
+
+.disabled {
+    display: none;
+}
+
+.div-experience {
+    background-color: var(--mgc-secondary-color);
+    width: 20%;
+    min-width: 200px;
+    min-height: 315px;
+    display: flex;
+    flex-direction: column;
+    gap: var(--mgc-gap-s);
+    padding: var(--mgc-padding-m);
+    border-radius: var(--mgc-radius-m)
+}
+
+.div-experience h2 {
+    font-family: var(--mgc-funny-font);
+    font-size: var(--mgc-font-size-md);
+    color: var(--mgc-tertiary-color);
+}
+.div-experience h3 {    
+    font-family: var(--mgc-normal-font);
+    font-size: var(--mgc-font-size-base);
+    color: var(--mgc-primary-color);
+}
+.div-experience p {
+    font-family: var(--mgc-normal-font);
+    font-size: var(--mgc-font-size-sm);
+    color: var(--mgc-primary-color);
+}

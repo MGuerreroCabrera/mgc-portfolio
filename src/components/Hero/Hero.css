@@ -1,7 +1,7 @@
 #hero {
     width: 100%;
     min-height: 100svh;
-    background-image: url("/assets/img/mgc-perfil-portfolio-2.jpg");
+    background-image: url("/assets/img/mgc-perfil.jpg");
     background-position: center;
     opacity: 1;
     background-size: cover;
@@ -13,7 +13,7 @@
     position: absolute;
     inset: 0;
     content: "";
-    background-color: rgba(0, 0, 0, 0.8);
+    background-color: rgba(0, 0, 0, 0.6);
 }
 
 #div-hero-container {
@@ -79,4 +79,27 @@
 }
 .not-acquired {
     opacity: 0.2;
+}
+
+.wave {
+    transition: 1.5s ease;
+    display: inline-block;
+    animation-name: waveHand;
+    animation-iteration-count: infinite;
+    animation-duration: 1.3s;
+    animation-timing-function: ease;
+    transform-origin: 90% 80%;
+    opacity: 1;
+}
+
+@keyframes waveHand {
+    0%{
+        transform: rotate(7deg);
+    }
+    50% {
+        transform: rotate(-7deg);
+    }
+    100% {
+        transform: rotate(7deg);
+    } 
 }

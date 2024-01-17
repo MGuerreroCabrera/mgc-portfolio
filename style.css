@@ -23,12 +23,17 @@ ol, ul {
   list-style: none;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 /* Variables */
 :root {
   /* Colores */
   --mgc-primary-color: white;
   --mgc-secondary-color: #303030;
-  --mgc-tertiary-color: #00c6bc;
+  --mgc-tertiary-color: #01b5b8;
+  --mgc-special-color: #aeaeae;
 
   /* Margins */
   --mgc-margin-xs: 2px;
@@ -60,7 +65,7 @@ ol, ul {
   --mgc-radius-xl: 40px;
 
   /* Font sizes */
-  --mgc-font-size-sm: clamp(0.8rem, 0.17vw + 0.76rem, 0.89rem);
+  --mgc-font-size-sm: clamp(0.7rem, 0.17vw + 0.66rem, 0.89rem);
   --mgc-font-size-base: clamp(1rem, 0.34vw + 0.91rem, 1.19rem);
   --mgc-font-size-md: clamp(1.25rem, 0.61vw + 1.1rem, 1.58rem);
   --mgc-font-size-lg: clamp(1.56rem, 1vw + 1.31rem, 2.11rem);

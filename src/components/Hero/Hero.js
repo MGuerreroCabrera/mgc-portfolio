@@ -49,9 +49,10 @@ export const Hero = () => {
 
     // Crear el h1 y h2 para el contendor izquierdo
     const h1 = document.createElement("h1");
-    h1.textContent = "Hola 👋, soy Manuel Guerrero Cabrera";
+    // h1.textContent = "Hola 👋, soy Manuel Guerrero Cabrera";
+    h1.innerHTML = 'Hola <span class="wave">👋</span>, soy Manuel Guerrero Cabrera';
     const h2 = document.createElement("h2");
-    h2.textContent = "Dos cosas me hacen feliz cada día. Mi familia y unas horas de programación.";
+    h2.textContent = "Dos cosas me hacen feliz cada día, mi familia y unas horas de programación.";
 
     // Inyectar contenido al contenedor izquierdo
     divLeftContainer.appendChild(h1);

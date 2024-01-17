@@ -7,7 +7,7 @@
 
 #nav-menu > li > a {
     font-family: var(--mgc-funny-font);
-    color: var(--mgc-primary-color);
+    color: var(--mgc-special-color);
     font-size: var(--mgc-font-size-m);
 }
 #nav-menu > li > a:hover {

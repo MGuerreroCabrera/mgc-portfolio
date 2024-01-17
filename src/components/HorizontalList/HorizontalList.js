@@ -2,7 +2,7 @@ import "./HorizontalList.css";
 
 const optionsMenu = [
     {
-        url: '#',
+        url: '#bio',
         textcontent: 'Bio',
         title: 'Bio'
     },

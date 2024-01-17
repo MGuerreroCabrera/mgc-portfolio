@@ -5,7 +5,7 @@
     display: flex;
     justify-content: flex-end;
     z-index: 2;
-    background-color: var(--mgc-secondary-color);
+    /*background-color: var(--mgc-secondary-color);*/
     padding: var(--mgc-padding-l) var(--mgc-padding-xl);
     gap: var(--mgc-gap-m);
 }
