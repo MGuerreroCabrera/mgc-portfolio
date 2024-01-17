@@ -71,7 +71,7 @@ export const Footer = () => {
 
     // Crear el párrafo del pie
     const p = document.createElement("p");
-    p.innerHTML = `© 2024 - Progresando en mi evolucion como <span class="special-footer-txt">Full Stack Developer</span>`;
+    p.innerHTML = `© 2024 - Progresando en mi evolución como <span class="special-footer-txt">Full Stack Developer</span>`;
     // Inyectar el párrafo en el footer
     footer.appendChild(p);
 
