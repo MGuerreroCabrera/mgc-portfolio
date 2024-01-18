@@ -33,6 +33,9 @@ export const Card = (title, description, imgSrc, altImg, urlProject) => {
     const a = document.createElement("a");
     a.href = urlProject;
     a.textContent = "+ ver más";
+    a.addEventListener("click", () => {
+        alert("Estos proyectos son un ejemplo. Pronto proyectos reales 🚀")
+    });
     // Inyectar enlace a la card
     card.appendChild(a);
     // Devolver la card
