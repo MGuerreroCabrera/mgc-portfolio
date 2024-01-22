@@ -81,3 +81,18 @@ html {
   /* --mgc-funny-font: 'Salsa', cursive; */
 
 }
+
+/** MEDIA QUERIES */
+
+/* Tamaño smartphone */
+@media screen and (max-width: 390px) { 
+  #app-header {
+    justify-content: flex-start;
+  }
+  #nav-menu {
+    gap: var(--mgc-gap-l);
+  }
+  .div-experience {
+    width: 80%;
+}
+}
