@@ -43,7 +43,7 @@ const contentPorfolio = Porfolio();
 portfolio.appendChild(contentPorfolio);
 
 // Inyectar portfolio al DOM
-divApp.appendChild(portfolio);
+//divApp.appendChild(portfolio);
 
 
 

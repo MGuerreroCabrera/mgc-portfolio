@@ -16,19 +16,19 @@ const skills = [
     },
     {
         skill: "NODE",
-        acquired: false
+        acquired: true
     },
     {
         skill: "MONGO",
-        acquired: false
+        acquired: true
     },
     {
         skill: "REACT",
-        acquired: false
+        acquired: true
     },
     {
         skill: "GIT",
-        acquired: false
+        acquired: true
     }
 ];
 
@@ -52,7 +52,7 @@ export const Hero = () => {
     // h1.textContent = "Hola 👋, soy Manuel Guerrero Cabrera";
     h1.innerHTML = 'Hola <span class="wave">👋</span>, soy Manuel Guerrero Cabrera';
     const h2 = document.createElement("h2");
-    h2.textContent = "Dos cosas me hacen feliz cada día, mi familia y unas horas de programación.";
+    h2.textContent = "Siempre buscando nuevos retos que me pongan a prueba y me obliguen a aprender.";
 
     // Inyectar contenido al contenedor izquierdo
     divLeftContainer.appendChild(h1);

@@ -1,16 +1,16 @@
 #nav-menu {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: var(--mgc-gap-xl);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: var(--mgc-gap-l);
 }
 
 #nav-menu > li > a {
-    font-family: var(--mgc-funny-font);
-    color: var(--mgc-special-color);
-    font-size: var(--mgc-font-size-m);
+  font-family: var(--mgc-funny-font);
+  color: var(--mgc-special-color);
+  font-size: var(--mgc-font-size-m);
 }
 #nav-menu > li > a:hover {
-    transition: color 1s;
-    color: var(--mgc-tertiary-color);
+  transition: color 1s;
+  color: var(--mgc-tertiary-color);
 }
