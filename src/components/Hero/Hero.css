@@ -49,6 +49,12 @@
   color: var(--mgc-primary-color);
 }
 
+#div-left-hero-container h3 {
+  font-family: var(--mgc-normal-font);
+  font-size: var(--mgc-font-size-md);
+  color: var(--mgc-primary-color);
+}
+
 #div-right-hero-container {
   width: 40%;
   min-width: 250px;

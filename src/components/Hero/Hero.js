@@ -1,3 +1,4 @@
+import { createElement } from "react";
 import "./Hero.css";
 
 // Definir array de objetos para las skills
@@ -53,10 +54,13 @@ export const Hero = () => {
     h1.innerHTML = 'Hola <span class="wave">👋</span>, soy Manuel Guerrero Cabrera';
     const h2 = document.createElement("h2");
     h2.textContent = "Tengo amplia experiencia en el diseño y desarrollo de MVP para Startups.";
+    const h3 = createElement("h3");
+    h3.textContent = "Me apasionan los retos y las nuevas oportunidades con las que aprender.";
 
     // Inyectar contenido al contenedor izquierdo
     divLeftContainer.appendChild(h1);
     divLeftContainer.appendChild(h2);
+    divLeftContainer.appendChild(h3);
 
     // Crear el contenedor izquierdo
     const divRightContainer = document.createElement("div");
