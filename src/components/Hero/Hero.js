@@ -1,4 +1,3 @@
-import { createElement } from "react";
 import "./Hero.css";
 
 // Definir array de objetos para las skills
