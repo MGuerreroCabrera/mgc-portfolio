@@ -45,9 +45,6 @@ portfolio.appendChild(contentPorfolio);
 // Inyectar portfolio al DOM
 //divApp.appendChild(portfolio);
 
-
-
-
 // Crear elemento footer e inyectarlo en el DOM
 const footer = Footer();
 divApp.appendChild(footer);
