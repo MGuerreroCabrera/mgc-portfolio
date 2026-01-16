@@ -52,7 +52,7 @@ export const Hero = () => {
     // h1.textContent = "Hola 👋, soy Manuel Guerrero Cabrera";
     h1.innerHTML = 'Hola <span class="wave">👋</span>, soy Manuel Guerrero Cabrera';
     const h2 = document.createElement("h2");
-    h2.textContent = "Siempre buscando nuevos retos que me pongan a prueba y me obliguen a aprender.";
+    h2.textContent = "Experto en diseño y desarrollo de MVP para Startups.";
 
     // Inyectar contenido al contenedor izquierdo
     divLeftContainer.appendChild(h1);
